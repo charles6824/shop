@@ -1,0 +1,107 @@
+/* Normalization */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* General Styling */
+.text-red {
+  color: red;
+}
+.bg-red {
+  background: red;
+}
+
+/* Marquee Scroll */
+.bg-scroll {
+  background: #9db2d0;
+  padding: 5px 25px;
+}
+
+/* Navigation */
+.fa-sign-in {
+  font-size: 25px;
+  margin-right: 7px;
+}
+input[type='search'] {
+  border-radius: 50px;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+  right: 15px;
+  bottom: 11px;
+}
+.btn-login {
+  background: #9db2d0;
+  padding: 5px 20px !important;
+  color: white !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.btn-register {
+  background: transparent;
+  border: 2px solid #9db2d0;
+  color: white !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 5px 20px !important;
+  margin-left: 7px;
+}
+/* Home Section */
+.text-flash {
+  background: red;
+  width: 150px;
+  color: white;
+  padding: 0 10px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 7rem;
+  animation-name: check;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
+.text-flas {
+  background: red;
+  width: 150px;
+  color: white;
+  padding: 0 10px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  animation-name: check;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
+@keyframes check {
+  from {
+    color: white;
+  }
+  to {
+    color: red;
+  }
+}
+.p-name {
+  font-size: 45px;
+  color: black;
+  font-weight: 700;
+}
+.price {
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+@media(max-width:576px){
+    .p-name{
+        font-size: 25px;
+    }
+}
